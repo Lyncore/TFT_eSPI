@@ -3072,7 +3072,7 @@ uint8_t TFT_eSPI::getAttribute(uint8_t attr_id) {
 ** Function name:           decodeUTF8
 ** Description:             Serial UTF-8 decoder with fall-back to extended ASCII
 *************************************************************************************x*/
-#define DECODE_UTF8 // Test only, comment out to stop decoding
+//#define DECODE_UTF8 // Test only, comment out to stop decoding
 uint16_t TFT_eSPI::decodeUTF8(uint8_t c)
 {
 #ifdef DECODE_UTF8
